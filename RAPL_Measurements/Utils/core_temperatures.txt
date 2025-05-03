@@ -1,0 +1,15 @@
+Core 0: 44.0°C
+Core 1: 43.0°C
+Core 2: 45.0°C
+Core 3: 44.0°C
+Core 4: 43.0°C
+Core 5: 44.0°C
+Core 6: 44.0°C
+Core 7: 46.0°C
+Core 8: 46.0°C
+Core 9: 46.0°C
+Core 10: 42.0°C
+Core 11: 42.0°C
+Core 12: 42.0°C
+Core 13: 42.0°C
+Average Temperature: 43.785714285714285°C
