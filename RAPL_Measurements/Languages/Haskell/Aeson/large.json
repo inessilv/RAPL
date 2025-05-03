@@ -1,0 +1,404 @@
+{
+    "organization": {
+      "name": "Global Tech Solutions",
+      "id": "GTS-12345",
+      "established": "1995-08-17",
+      "headquarters": {
+        "address": "100 Innovation Drive",
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "USA",
+        "zipCode": "94105"
+      },
+      "contact": {
+        "phone": "+1 (555) 123-4567",
+        "email": "info@globaltechsolutions.example",
+        "website": "https://www.globaltechsolutions.example"
+      },
+      "legalInfo": {
+        "registrationNumber": "US82937498",
+        "taxId": "82-9374982",
+        "jurisdiction": "Delaware",
+        "companyType": "Corporation"
+      }
+    },
+    "departments": [
+      {
+        "id": "DEP-001",
+        "name": "Research & Development",
+        "head": {
+          "id": "EMP-1057",
+          "name": "Dr. Sarah Johnson",
+          "title": "Chief Research Officer",
+          "joinDate": "2001-04-12",
+          "education": [
+            {
+              "degree": "Ph.D",
+              "field": "Computer Science",
+              "institution": "Stanford University",
+              "year": 1998
+            },
+            {
+              "degree": "M.S.",
+              "field": "Artificial Intelligence",
+              "institution": "MIT",
+              "year": 1995
+            }
+          ],
+          "contact": {
+            "email": "sarah.johnson@globaltechsolutions.example",
+            "phone": "+1 (555) 987-6541",
+            "office": "10th Floor, North Wing"
+          }
+        },
+        "budget": 15000000.00,
+        "projects": [
+          {
+            "id": "PROJ-R101",
+            "name": "Quantum Computing Initiative",
+            "startDate": "2020-01-15",
+            "endDate": "2025-12-31",
+            "budget": 7500000.00,
+            "status": "In Progress",
+            "team": [
+              {"id": "EMP-2345", "name": "Alan Chen", "role": "Project Lead"},
+              {"id": "EMP-3456", "name": "Maria Rodriguez", "role": "Senior Researcher"},
+              {"id": "EMP-4567", "name": "James Wilson", "role": "Quantum Engineer"}
+            ],
+            "milestones": [
+              {
+                "id": "MS-QC-001",
+                "name": "Research Phase Completion",
+                "dueDate": "2022-06-30",
+                "status": "Completed",
+                "deliverables": ["Research Paper", "Prototype Design"]
+              },
+              {
+                "id": "MS-QC-002",
+                "name": "First Prototype",
+                "dueDate": "2023-12-31",
+                "status": "In Progress",
+                "deliverables": ["Working Prototype", "Technical Documentation"]
+              }
+            ],
+            "risks": [
+              {
+                "id": "RISK-QC-001",
+                "description": "Technology breakthrough by competitors",
+                "probability": "Medium",
+                "impact": "High",
+                "mitigation": "Accelerate research timeline and secure additional patents"
+              },
+              {
+                "id": "RISK-QC-002",
+                "description": "Hardware component supply constraints",
+                "probability": "High",
+                "impact": "Medium",
+                "mitigation": "Identify alternative suppliers and develop custom components in-house"
+              }
+            ]
+          },
+          {
+            "id": "PROJ-R102",
+            "name": "Machine Learning Framework",
+            "startDate": "2021-03-01",
+            "endDate": "2024-08-31",
+            "budget": 4200000.00,
+            "status": "In Progress",
+            "team": [
+              {"id": "EMP-5678", "name": "Emily Johnson", "role": "Project Lead"},
+              {"id": "EMP-6789", "name": "David Kim", "role": "ML Engineer"},
+              {"id": "EMP-7890", "name": "Sophia Martinez", "role": "Data Scientist"}
+            ],
+            "milestones": [
+              {
+                "id": "MS-ML-001",
+                "name": "Algorithm Development",
+                "dueDate": "2022-09-30",
+                "status": "Completed",
+                "deliverables": ["Algorithm Documentation", "MVP Implementation"]
+              },
+              {
+                "id": "MS-ML-002",
+                "name": "Framework Beta Release",
+                "dueDate": "2023-06-30",
+                "status": "Completed",
+                "deliverables": ["Beta Software", "User Documentation"]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "DEP-002",
+        "name": "Product Development",
+        "head": {
+          "id": "EMP-2087",
+          "name": "Michael Chang",
+          "title": "VP of Product",
+          "joinDate": "2008-11-03",
+          "education": [
+            {
+              "degree": "MBA",
+              "field": "Business Administration",
+              "institution": "Harvard Business School",
+              "year": 2005
+            },
+            {
+              "degree": "B.S.",
+              "field": "Computer Engineering",
+              "institution": "UC Berkeley",
+              "year": 2000
+            }
+          ]
+        },
+        "budget": 12000000.00,
+        "projects": [
+          {
+            "id": "PROJ-P201",
+            "name": "NextGen Platform",
+            "startDate": "2023-01-10",
+            "endDate": "2025-06-30",
+            "budget": 8500000.00,
+            "status": "In Progress",
+            "team": [
+              {"id": "EMP-8901", "name": "Robert Taylor", "role": "Technical Lead"},
+              {"id": "EMP-9012", "name": "Jennifer Lee", "role": "UX Designer"},
+              {"id": "EMP-0123", "name": "Carlos Mendez", "role": "Backend Developer"}
+            ]
+          }
+        ]
+      }
+    ],
+    "employees": [
+      {
+        "id": "EMP-1057",
+        "name": "Dr. Sarah Johnson",
+        "title": "Chief Research Officer",
+        "department": "Research & Development",
+        "joinDate": "2001-04-12",
+        "salary": 245000.00,
+        "isActive": true
+      },
+      {
+        "id": "EMP-2087",
+        "name": "Michael Chang",
+        "title": "VP of Product",
+        "department": "Product Development",
+        "joinDate": "2008-11-03",
+        "salary": 210000.00,
+        "isActive": true
+      },
+      {
+        "id": "EMP-2345",
+        "name": "Alan Chen",
+        "title": "Senior Project Manager",
+        "department": "Research & Development",
+        "joinDate": "2015-07-22",
+        "salary": 145000.00,
+        "isActive": true
+      }
+    ],
+    "customers": [
+      {
+        "id": "CUST-001",
+        "name": "TechCorp International",
+        "type": "Enterprise",
+        "since": "2010-05-18",
+        "contacts": [
+          {
+            "name": "John Smith",
+            "title": "CTO",
+            "email": "john.smith@techcorp.example",
+            "phone": "+1 (555) 246-8135"
+          },
+          {
+            "name": "Lisa Wong",
+            "title": "Procurement Manager",
+            "email": "lisa.wong@techcorp.example",
+            "phone": "+1 (555) 357-9246"
+          }
+        ],
+        "projects": [
+          {
+            "id": "TCP-2023-001",
+            "name": "Enterprise AI Implementation",
+            "startDate": "2023-03-15",
+            "status": "In Progress",
+            "value": 1750000.00,
+            "contacts": ["John Smith"],
+            "milestones": [
+              {"name": "Requirements Gathering", "date": "2023-04-30", "completed": true},
+              {"name": "Phase 1 Deployment", "date": "2023-08-31", "completed": true},
+              {"name": "Phase 2 Deployment", "date": "2024-01-31", "completed": false}
+            ]
+          }
+        ],
+        "billingInfo": {
+          "address": {
+            "street": "500 Corporate Avenue",
+            "city": "New York",
+            "state": "NY",
+            "zipCode": "10022",
+            "country": "USA"
+          },
+          "paymentTerms": "Net 45",
+          "currency": "USD",
+          "taxId": "TC-83726493"
+        }
+      },
+      {
+        "id": "CUST-002",
+        "name": "InnovateSoft LLC",
+        "type": "Mid-Market",
+        "since": "2018-09-24",
+        "contacts": [
+          {
+            "name": "Rachel Green",
+            "title": "CEO",
+            "email": "rachel.green@innovatesoft.example",
+            "phone": "+1 (555) 468-1357"
+          }
+        ],
+        "projects": [
+          {
+            "id": "ISL-2022-001",
+            "name": "Data Analytics Platform",
+            "startDate": "2022-11-10",
+            "status": "In Progress",
+            "value": 450000.00,
+            "contacts": ["Rachel Green"],
+            "milestones": [
+              {"name": "Requirements Gathering", "date": "2022-12-15", "completed": true},
+              {"name": "MVP Delivery", "date": "2023-03-31", "completed": true},
+              {"name": "Full Deployment", "date": "2023-07-31", "completed": false}
+            ]
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": "PROD-001",
+        "name": "Enterprise AI Platform",
+        "category": "Software",
+        "description": "An end-to-end artificial intelligence platform for enterprise business processes",
+        "pricing": {
+          "model": "Subscription",
+          "tiers": [
+            {"name": "Standard", "price": 50000.00, "billingCycle": "Annual"},
+            {"name": "Professional", "price": 100000.00, "billingCycle": "Annual"},
+            {"name": "Enterprise", "price": 250000.00, "billingCycle": "Annual"}
+          ],
+          "customization": true
+        },
+        "versions": [
+          {
+            "version": "3.5",
+            "releaseDate": "2023-01-15",
+            "endOfSupport": "2025-01-15",
+            "features": [
+              "Natural Language Processing",
+              "Computer Vision Integration",
+              "Real-time Analytics Dashboard",
+              "Custom AI Model Training"
+            ]
+          },
+          {
+            "version": "3.0",
+            "releaseDate": "2022-03-10",
+            "endOfSupport": "2024-03-10",
+            "features": [
+              "Natural Language Processing",
+              "Real-time Analytics Dashboard",
+              "Basic AI Model Training"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "PROD-002",
+        "name": "QuantumSecure",
+        "category": "Hardware",
+        "description": "Quantum-enhanced security appliance for enterprise networks",
+        "pricing": {
+          "model": "One-time Purchase",
+          "tiers": [
+            {"name": "Base Model", "price": 75000.00},
+            {"name": "Advanced Model", "price": 125000.00}
+          ],
+          "maintenance": {
+            "annual": 15000.00,
+            "includes": ["Software Updates", "Hardware Support", "24/7 Technical Assistance"]
+          }
+        },
+        "specifications": {
+          "dimensions": "2U Rack Mount",
+          "weight": "12.5 kg",
+          "power": "110-240V, 350W",
+          "connectivity": ["10Gb Ethernet", "Fiber Channel"],
+          "certifications": ["ISO 27001", "FIPS 140-2"]
+        }
+      }
+    ],
+    "financials": {
+      "fiscalYear": 2024,
+      "quarters": [
+        {
+          "quarter": "Q1",
+          "revenue": 78500000.00,
+          "expenses": 62300000.00,
+          "growth": 12.5,
+          "breakdown": {
+            "products": {
+              "software": 45600000.00,
+              "hardware": 15400000.00,
+              "services": 17500000.00
+            },
+            "regions": {
+              "northAmerica": 42300000.00,
+              "europe": 21700000.00,
+              "asiaPacific": 14500000.00
+            }
+          }
+        },
+        {
+          "quarter": "Q2",
+          "revenue": 82700000.00,
+          "expenses": 64500000.00,
+          "growth": 8.7,
+          "breakdown": {
+            "products": {
+              "software": 48300000.00,
+              "hardware": 16900000.00,
+              "services": 17500000.00
+            },
+            "regions": {
+              "northAmerica": 43500000.00,
+              "europe": 24200000.00,
+              "asiaPacific": 15000000.00
+            }
+          }
+        }
+      ],
+      "investments": [
+        {
+          "category": "R&D",
+          "amount": 28500000.00,
+          "details": [
+            {"project": "Quantum Computing", "amount": 12500000.00},
+            {"project": "AI Framework", "amount": 9500000.00},
+            {"project": "Cybersecurity", "amount": 6500000.00}
+          ]
+        },
+        {
+          "category": "Infrastructure",
+          "amount": 12700000.00,
+          "details": [
+            {"project": "Data Centers", "amount": 8200000.00},
+            {"project": "Office Expansion", "amount": 4500000.00}
+          ]
+        }
+      ]
+    }
+  }

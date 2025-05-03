@@ -1,0 +1,68 @@
+{
+    "store": {
+      "name": "Example Store",
+      "location": {
+        "city": "New York",
+        "address": "123 Main St",
+        "zipCode": "10001"
+      },
+      "employees": 50,
+      "founded": "2005-03-15",
+      "active": true
+    },
+    "products": [
+      {
+        "id": "p001",
+        "name": "Laptop",
+        "price": 1299.99,
+        "category": "Electronics",
+        "inventory": 45,
+        "specifications": {
+          "brand": "TechBrand",
+          "model": "Pro X5",
+          "processor": "i7",
+          "ram": "16GB",
+          "storage": "512GB SSD"
+        },
+        "reviews": [
+          {
+            "user": "User1",
+            "rating": 5,
+            "comment": "Excellent product!"
+          },
+          {
+            "user": "User2",
+            "rating": 4,
+            "comment": "Good value for money."
+          }
+        ]
+      },
+      {
+        "id": "p002",
+        "name": "Smartphone",
+        "price": 799.99,
+        "category": "Electronics",
+        "inventory": 78,
+        "specifications": {
+          "brand": "PhoneCorp",
+          "model": "Galaxy S",
+          "processor": "Snapdragon",
+          "ram": "8GB",
+          "storage": "128GB"
+        },
+        "reviews": [
+          {
+            "user": "User3",
+            "rating": 4,
+            "comment": "Great phone!"
+          }
+        ]
+      }
+    ],
+    "categories": ["Electronics", "Home", "Clothing", "Books"],
+    "promotions": {
+      "active": true,
+      "discount": 15,
+      "endDate": "2025-12-31"
+    }
+  }
